@@ -7,6 +7,18 @@ body {
 }
 
 .főkep {
-    transform: scale(0.8);
+    transform: scale(0.5);
     border: black solid 5px;
+    margin: -50px -50px -50px -50px;
+}
+
+.foszoveg {
+    margin-top: 30px;
+    transform: scale(1.5);
+    margin-left: 130px;
+}
+
+#paraszt {
+    transform: scale(0.2);
+    margin: -170px -50px -100px -170px;
 }
