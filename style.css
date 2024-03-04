@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(239, 228, 176);
+}
+
+.barna {
+    background-color: rgb(185, 122, 87);
+}
+
+.főkep {
+    transform: scale(0.8);
+    border: black solid 5px;
+}
