@@ -8,7 +8,9 @@ body {
 
 .foszoveg {
     margin-top: 10px;
+    margin-left: 15px;
     font-size: 4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #paraszt {
@@ -41,6 +43,14 @@ body {
 
 .nav {
     border: 0 !important;
+}
+
+.navbarlink {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media (max-width: 899.98px) {
@@ -80,4 +90,4 @@ body {
     .text-limit-responsiveness {
         font-size: 0.6vw;
     }
-} 
+}
