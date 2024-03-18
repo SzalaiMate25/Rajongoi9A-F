@@ -62,7 +62,7 @@ body {
         font-size: 2.6vw;
     }
     .text-limit-responsiveness {
-        font-size: 1vw;
+        font-size: 0.6vw;
     }
 }
 
@@ -88,6 +88,6 @@ body {
         font-size: 1.4vw;
     }
     .text-limit-responsiveness {
-        font-size: 0.6vw;
+        font-size: 1vw;
     }
 }
