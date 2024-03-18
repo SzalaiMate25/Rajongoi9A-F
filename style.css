@@ -6,17 +6,9 @@ body {
     background-color: rgb(185, 122, 87);
 }
 
-.főkep {
-    transform: scale(0.45);
-    border: rgb(239, 228, 176) solid 5px;
-    margin: -70px -60px;
-}
-
 .foszoveg {
-    margin-top: 30px;
-    transform: scale(1.5);
-    margin-left: 100px;
-    
+    margin-top: 10px;
+    font-size: 4vw;
 }
 
 #paraszt {
@@ -27,14 +19,14 @@ body {
 .link {
     color: rgb(239, 228, 176);
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 2vw;
     margin-left: 10px;
+    padding: 4px 1vw;
 }
 
 .link:hover {
-    background-color: rgb(190, 150, 90);
-    color: rgb(239, 228, 176);
-    border: 1px solid rgb(239, 228, 176);
+    background-color: rgb(150, 100, 60);
+    color: rgb(220, 210, 155);
 }
 
 .selected {
@@ -50,3 +42,42 @@ body {
 .nav {
     border: 0 !important;
 }
+
+@media (max-width: 899.98px) {
+    .foszoveg {
+        margin-top: 10px;
+        font-size: 6vw;
+    }
+    .link-limit-responsiveness {
+        font-size: 2.6vw;
+    }
+    .text-limit-responsiveness {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 900px) {
+    .foszoveg {
+        margin-top: 7px;
+        font-size: 4.75vw;
+    }
+    .link-limit-responsiveness {
+        font-size: 2vw;
+    }
+    .text-limit-responsiveness {
+        font-size: 0.8vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    .foszoveg {
+        margin-top: 4px;
+        font-size: 3.5vw;
+    }
+    .link-limit-responsiveness {
+        font-size: 1.4vw;
+    }
+    .text-limit-responsiveness {
+        font-size: 0.6vw;
+    }
+} 
