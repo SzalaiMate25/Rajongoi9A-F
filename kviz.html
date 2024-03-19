@@ -22,17 +22,29 @@
             </div>
         </nav>
     </div>
-    <div class="container-fluid text-limit-responsiveness page">
+    <div style="font-size: larger;" class="container-fluid page">
         <p class="h2">
-            
+            Teszteld Tudásod!
         </p>
         <p>
-            <form>
-                <fieldset>
-                    <legend>Teszteld tudásod</legend>
-                </fieldset>
-            </form>
+            Itt egy tesztet tudsz kitölteni, amihez a válaszokat a weboldalon találhatod. A kvíz kitöltése után a "Küldés" gombbal küldheted be megoldásodat.
         </p>
+        
+        <form>
+            <fieldset>
+                <legend>Kvíz</legend>
+                <p>Milyen néven streamel Hikaru Nakamura a Twitch platformján?</p>
+                <input type="radio" id="hikaru" name="twitch_name" value="Hikaru">
+                <label for="hikaru">Hikaru</label><br>
+                <input type="radio" id="gmhikaru" name="twitch_name" value="GMHikaru">
+                <label for="gmhikaru">GMHikaru</label><br>
+                <input type="radio" id="grandmasterhikaru" name="twitch_name" value="GrandMasterHikaru">
+                <label for="grandmasterhikaru">JavaScript</label><br>
+                <input type="radio" id="hikarunakamura" name="twitch_name" value="HikaruNakamura">
+                <label for="hikaru">Hikaru Nakamura</label><br>
+            </fieldset>
+        </form>
+        
     </div>
 </body>
 </html> 
