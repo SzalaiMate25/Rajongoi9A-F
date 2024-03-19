@@ -53,6 +53,14 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.out-nav-link {
+    text-decoration: none;
+}
+
+.out-nav-link:hover {
+    color: rgb(185, 122, 87);
+}
+
 @media (max-width: 899.98px) {
     .foszoveg {
         margin-top: 10px;
