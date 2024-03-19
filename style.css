@@ -81,3 +81,18 @@ body {
         font-size: 0.6vw;
     }
 } 
+
+.szemelylink {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.szemelykep {
+    max-width: 300px;
+    margin: auto;
+}
+
+.szemely {
+    max-width: 400px;
+    margin: 0 auto 0 auto;
+}
