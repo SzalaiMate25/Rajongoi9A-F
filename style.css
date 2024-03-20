@@ -61,6 +61,10 @@ body {
     color: rgb(185, 122, 87);
 }
 
+.carousel-indicator-fix {
+    position: relative;
+    bottom: -600px;
+}
 @media (max-width: 899.98px) {
     .foszoveg {
         margin-top: 10px;
