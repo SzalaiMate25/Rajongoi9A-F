@@ -55,16 +55,42 @@ body {
 
 .out-nav-link {
     text-decoration: none;
+    color: black;
 }
 
 .out-nav-link:hover {
-    color: rgb(185, 122, 87);
+    color: rgb(125, 72, 27);
+}
+
+.carousel-button-prev {
+    right: auto; 
+    left: 10px;
+}
+
+.carousel-button-next {
+    left: auto; 
+    right: 10px;
+}
+
+.carouse-image {
+    height: 600px;
 }
 
 .carousel-indicator-fix {
     position: relative;
     bottom: -600px;
 }
+
+.main-page {
+    width: auto; 
+    max-width: 100%;
+    height: fit-content;
+}
+
+.font-large {
+    font-size: larger;
+}
+
 @media (max-width: 899.98px) {
     .foszoveg {
         margin-top: 10px;
