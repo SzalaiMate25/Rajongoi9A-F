@@ -56,6 +56,12 @@ body {
     color: rgb(185, 122, 87);
 }
 
+.kviz-fieldset {
+    border: 5px solid rgb(190, 150, 90);
+    border-radius: 25px;
+    padding: 7px;
+}
+
 @media (max-width: 899.98px) {
     .foszoveg {
         margin-top: 10px;
