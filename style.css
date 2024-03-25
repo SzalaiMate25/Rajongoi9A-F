@@ -78,7 +78,7 @@ body {
 
 .carousel-indicator-fix {
     position: relative;
-    bottom: -600px;
+    bottom: -45px;
 }
 
 .main-page {
@@ -89,6 +89,11 @@ body {
 
 .font-large {
     font-size: larger;
+}
+
+.nav-div {
+    position: fixed;
+    top: 0px;
 }
 
 @media (max-width: 899.98px) {
