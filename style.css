@@ -107,6 +107,9 @@ body {
     .text-limit-responsiveness {
         font-size: 1vw;
     }
+    .carousel-text-limit-responsiveness {
+        font-size: 2vw;
+    }
 }
 
 @media (min-width: 900px) {
@@ -120,6 +123,9 @@ body {
     .text-limit-responsiveness {
         font-size: 0.8vw;
     }
+    .carousel-text-limit-responsiveness {
+        font-size: 1.6vw;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -132,5 +138,8 @@ body {
     }
     .text-limit-responsiveness {
         font-size: 0.6vw;
+    }
+    .carousel-text-limit-responsiveness {
+        font-size: 1.2vw;
     }
 }
