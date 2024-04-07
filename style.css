@@ -8,12 +8,9 @@ body {
 
 .foszoveg {
     margin-top: 10px;
+    margin-left: 15px;
     font-size: 4vw;
-}
-
-#paraszt {
-    transform: scale(0.2);
-    margin: -170px -50px -100px -170px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .link {
@@ -41,6 +38,28 @@ body {
 
 .nav {
     border: 0 !important;
+}
+
+.navbarlink {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.out-nav-link {
+    text-decoration: none;
+}
+
+.out-nav-link:hover {
+    color: rgb(185, 122, 87);
+}
+
+.kviz-fieldset {
+    border: 5px solid rgb(190, 150, 90);
+    border-radius: 25px;
+    padding: 7px;
 }
 
 @media (max-width: 899.98px) {
