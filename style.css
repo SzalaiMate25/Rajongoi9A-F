@@ -13,11 +13,6 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#paraszt {
-    transform: scale(0.2);
-    margin: -170px -50px -100px -170px;
-}
-
 .link {
     color: rgb(239, 228, 176);
     text-decoration: none;
@@ -96,6 +91,23 @@ body {
     top: 0px;
 }
 
+
+.eredmenyek-jumbotron {
+    background-color: rgb(190, 150, 90);
+    border: 5px solid rgb(185, 122, 87);
+}
+
+.kviz-fieldset {
+    border: 5px solid rgb(190, 150, 90);
+    border-radius: 25px;
+    padding: 7px;
+}
+
+.kviz-gomb {
+    width: 15em;
+    margin-right: 0.5em;
+}
+
 @media (max-width: 899.98px) {
     .foszoveg {
         margin-top: 10px;
@@ -139,7 +151,30 @@ body {
     .text-limit-responsiveness {
         font-size: 0.6vw;
     }
+
     .carousel-text-limit-responsiveness {
         font-size: 1.2vw;
     }
+} 
+
+.szemelylink {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.szemelykep {
+    max-width: 300px;
+    margin: auto;
+}
+
+.szemely {
+    max-width: 320px;
+    margin: 0 auto 0 auto;
+    align-content: center;
+}
+
+.készitett {
+    border: 5px black solid;
+    margin-bottom: 10px;
 }

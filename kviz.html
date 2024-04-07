@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hikaru</title>
+    <title>Hikaru Nakamura rajongói oldala</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function validate() {
+            score = 0;
+            let qOne = document.getElementById("gmhikaru").checked;
+            let qTwo = document.getElementById("grob").checked;
+            let qThree = document.getElementById("15").checked;
+            let qFour = document.getElementById("5").checked;
+
+            if (qOne) {
+                score++;
+            }
+            if (qTwo) {
+                score++;
+            }
+            if (qThree) {
+                score++;
+            }
+            if (qFour) {
+                score++;
+            }
+
+            if (score == 4) {
+                alert("Helyes válasz :) 4/4");
+            } else {
+                alert("Helytelen válaszok :( " + score.toString() + "/4");
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="barna row ">
@@ -15,7 +44,6 @@
                 <ul class="nav nav-tabs navbar-nav-sm">
                     <li class="nav-item"><a href="index.html" class="nav-link link link-limit-responsiveness navbarlink">Főoldal</a></li>
                     <li class="nav-item"><a href="eredmenyek.html" class="nav-link link link-limit-responsiveness navbarlink">Eredmények</a></li>
-                    <li class="nav-item"><a href="jatszmak.html" class="nav-link link link-limit-responsiveness navbarlink">Játszmák</a></li>
                     <li class="nav-item"><a href="kviz.html" class="nav-link link link-limit-responsiveness navbarlink selected">Kvíz</a></li>
                     <li class="nav-item"><a href="rolunk.html" class="nav-link link link-limit-responsiveness navbarlink">Rólunk</a></li>
                 </ul>
@@ -30,21 +58,53 @@
             Itt egy tesztet tudsz kitölteni, amihez a válaszokat a weboldalon találhatod. A kvíz kitöltése után a "Küldés" gombbal küldheted be megoldásodat.
         </p>
         
-        <form>
-            <fieldset>
+        <form name="kviz" onsubmit="return validate()">
+            <fieldset class="kviz-fieldset">
                 <legend>Kvíz</legend>
-                <p>Milyen néven streamel Hikaru Nakamura a Twitch platformján?</p>
+                <p><b>1.</b> Milyen néven streamel Hikaru Nakamura a Twitch platformján?</p>
                 <input type="radio" id="hikaru" name="twitch_name" value="Hikaru">
                 <label for="hikaru">Hikaru</label><br>
                 <input type="radio" id="gmhikaru" name="twitch_name" value="GMHikaru">
                 <label for="gmhikaru">GMHikaru</label><br>
                 <input type="radio" id="grandmasterhikaru" name="twitch_name" value="GrandMasterHikaru">
-                <label for="grandmasterhikaru"></label><br>
+                
+                <label for="grandmasterhikaru">GrandMasterHikaru</label><br>
                 <input type="radio" id="hikarunakamura" name="twitch_name" value="HikaruNakamura">
-                <label for="hikaru">Hikaru Nakamura</label><br>
+                <label for="hikarunakamura">Hikaru Nakamura</label><br><br>
+
+                <p><b>2.</b> Mely megnyitás <b>nincs</b> megemlítve, mint a streameken játszott viccmegnyitás?</p>
+                <input type="radio" id="bongcloud" name="not-a-joke-opening" value="Bongcloud-attack">
+                <label for="bongcloud">Bongcloud Támadás</label><br>
+                <input type="radio" id="botezgambit" name="not-a-joke-opening" value="Botez-gambit">
+                <label for="botezgambit">Botez Csel</label><br>
+                <input type="radio" id="jeromegambit" name="not-a-joke-opening" value="Jerome-gambit">
+                <label for="jeromegambit">Jerome Csel</label><br>
+                <input type="radio" id="grob" name="not-a-joke-opening" value="Grob-opening">
+                <label for="grob">Grob Megnyitás</label><br><br>
+
+                <p><b>3.</b> Hány éves korában érte el a nagyesteri címet?</p>
+                <input type="radio" id="8" name="grandmaster" value="8">
+                <label for="8">8</label><br>
+                <input type="radio" id="10" name="grandmaster" value="10">
+                <label for="10">10</label><br>
+                <input type="radio" id="12" name="grandmaster" value="12">
+                <label for="12">12</label><br>
+                <input type="radio" id="15" name="grandmaster" value="15">
+                <label for="15">15</label><br><br>
+
+                <p><b>4.</b> Hányszor nyerte el az amerikai bajnoki címet?</p>
+                <input type="radio" id="3" name="american-championship" value="3">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="american-championship" value="4">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="american-championship" value="5">
+                <label for="5">5</label><br>
+                <input type="radio" id="6" name="american-championship" value="6">
+                <label for="6">6</label><br><br>
+
+                <input type="submit" value="Küldés" class="kviz-gomb link-limit-responsiveness"><input type="reset" value="Válaszok Törlése" class="kviz-gomb link-limit-responsiveness">
             </fieldset>
-        </form>
-        
+        </form>        
     </div>
 </body>
 </html> 
