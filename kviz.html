@@ -9,15 +9,29 @@
 
     <script>
         function validate() {
+            score = 0;
             let qOne = document.getElementById("gmhikaru").checked;
             let qTwo = document.getElementById("grob").checked;
             let qThree = document.getElementById("15").checked;
             let qFour = document.getElementById("5").checked;
 
-            if (qOne && qTwo && qThree & qFour) {
-                alert("Helyes válasz :)");
+            if (qOne) {
+                score++;
+            }
+            if (qTwo) {
+                score++;
+            }
+            if (qThree) {
+                score++;
+            }
+            if (qFour) {
+                score++;
+            }
+
+            if (score == 4) {
+                alert("Helyes válasz :) 4/4");
             } else {
-                alert("Helytelen válaszok :(");
+                alert("Helytelen válaszok :( " + score.toString() + "/4");
             }
         }
     </script>
