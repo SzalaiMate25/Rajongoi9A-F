@@ -61,6 +61,11 @@ body {
     color: rgb(185, 122, 87);
 }
 
+.eredmenyek-jumbotron {
+    background-color: rgb(190, 150, 90);
+    border: 5px solid rgb(185, 122, 87);
+}
+
 @media (max-width: 899.98px) {
     .foszoveg {
         margin-top: 10px;
