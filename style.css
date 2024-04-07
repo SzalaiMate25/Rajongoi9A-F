@@ -83,6 +83,7 @@ body {
 } 
 
 .szemelylink {
+    font-size: 0.8em;
     text-decoration: none;
     color: blanchedalmond;
 }
@@ -93,7 +94,12 @@ body {
 }
 
 .szemely {
-    max-width: 400px;
+    max-width: 320px;
     margin: 0 auto 0 auto;
     align-content: center;
+}
+
+.készitett {
+    border: 5px black solid;
+    margin-bottom: 10px;
 }
