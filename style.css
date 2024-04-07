@@ -50,10 +50,45 @@ body {
 
 .out-nav-link {
     text-decoration: none;
+    color: black;
 }
 
 .out-nav-link:hover {
-    color: rgb(185, 122, 87);
+    color: rgb(125, 72, 27);
+}
+
+.carousel-button-prev {
+    right: auto; 
+    left: 10px;
+}
+
+.carousel-button-next {
+    left: auto; 
+    right: 10px;
+}
+
+.carouse-image {
+    height: 600px;
+}
+
+.carousel-indicator-fix {
+    position: relative;
+    bottom: -45px;
+}
+
+.main-page {
+    width: auto; 
+    max-width: 100%;
+    height: fit-content;
+}
+
+.font-large {
+    font-size: larger;
+}
+
+.nav-div {
+    position: fixed;
+    top: 0px;
 }
 
 
@@ -84,6 +119,9 @@ body {
     .text-limit-responsiveness {
         font-size: 1vw;
     }
+    .carousel-text-limit-responsiveness {
+        font-size: 2vw;
+    }
 }
 
 @media (min-width: 900px) {
@@ -97,6 +135,9 @@ body {
     .text-limit-responsiveness {
         font-size: 0.8vw;
     }
+    .carousel-text-limit-responsiveness {
+        font-size: 1.6vw;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -109,6 +150,10 @@ body {
     }
     .text-limit-responsiveness {
         font-size: 0.6vw;
+    }
+
+    .carousel-text-limit-responsiveness {
+        font-size: 1.2vw;
     }
 } 
 

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="barna row ">
+    <div class="barna row">
         <div><p class="h2 foszoveg">Hikaru Nakamura rajongói oldala</p></div>
         <nav>
             <div class="container-fluid">
@@ -24,12 +24,12 @@
             </div>
         </nav>
     </div>
-    <div class="container row text-start page" style="width: auto; max-width: 100%;" style="height: fit-content;">
+    <div class="container row text-start page main-page">
         <div class="container-fluid page">
            <p class="h1 text-center border-bottom border-black">Üdvözöllek a Hikaru Nakamura rajongói oldalán!</p>
         </div>
-        <div class="col-6">
-            <p style="font-size: larger;">Ez a webhely az egyik legkiemelkedőbb sakkjátékos,
+        <div class="col-12 col-lg-4 col-xl-6">
+            <p class="font-large">Ez a webhely az egyik legkiemelkedőbb sakkjátékos,
                 <b>Hikaru Nakamura</b> pályafutására és életére összpontosít, aki a modern sakk egyik legkarakteresebb
                 alakja.
                 Hikaru nemcsak az intenzív és stratégiailag lenyűgöző játékáról ismert, hanem a sakk iránti
@@ -64,14 +64,14 @@
                 Jerome Csel, a Botez Csel, vagy az általa feltalált Bongcloud Támadás.
             </p>
             <p class="h2">
-                <a href="eredmenyek.html" class="out-nav-link" style="color: black;">Említésre méltó eredmények</a>:
+                <a href="eredmenyek.html" class="out-nav-link">Említésre méltó eredmények</a>:
             </p>
             <p> - Ötszörös amerikai bajnok (2005, 2009, 2012, 2015, 2019)</p>
             <p> - A FIDE 2004-es világbajnoki selejtezőjén való részvétel</p>
             <p> - 2022 Fischer Random Világbajnoki cím</p>
         </div>
-        <div id="valami" class="carousel slide col-6" data-bs-ride="carousel">
-            <div class="carousel-indicators" style="margin-bottom: 140px;">
+        <div id="valami" class="carousel carousel-height-fix slide col" data-bs-ride="carousel">
+            <div class="carousel-indicators carousel-indicator-fix">
                 <button type="button" data-bs-target="#valami" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#valami" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#valami" data-bs-slide-to="2"></button>
@@ -79,34 +79,32 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="kep1.png" alt="Nakamura" class="d-block w-100" height="600px">
+                    <img src="kep1.png" alt="Nakamura" class="d-block w-100 carousel-image">
                     <div class="carousel-caption">
-                        <h3 class="text-bg-dark">2018 Grand Chess Tour</h3>
-                        <p class="text-bg-danger">Megnyerte miután leverte Maxime Vachier-Lagrave-t</p>
+                        <h3 class="text-bg-dark carousel-text-limit-responsiveness">2018 Grand Chess Tour</h3>
+                        <p class="text-bg-danger carousel-text-limit-responsiveness">Megnyerte miután leverte Maxime Vachier-Lagrave-t</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="kep2.png" alt="Nakamura" class="d-block w-100" height="600px">
+                    <img src="kep2.png" alt="Nakamura" class="d-block w-100 carousel-image">
                     <div class="carousel-caption">
-                        <h3 class="text-bg-dark">2015 Amerikai Bajnokság</h3>
-                        <p class="text-bg-danger">I. Helyezett lett veretlenül.</p>
+                        <h3 class="text-bg-dark carousel-text-limit-responsiveness">2015 Amerikai Bajnokság</h3>
+                        <p class="text-bg-danger carousel-text-limit-responsiveness">I. Helyezett lett veretlenül.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="kep3.png"
-                        alt="Nakamura" class="d-block w-100" height="600px">
-                    <div class="carousel-caption">
-                        <h3 class="text-bg-dark">2022 FIDE World Chess Grand Prix</h3>
+                        alt="Nakamura" class="d-block w-100 carousel-image">
+                    <div class="carousel-caption carousel-text-limit-responsiveness">
+                        <h3 class="text-bg-dark carousel-text-limit-responsiveness">2022 FIDE World Chess Grand Prix</h3>
                         <p class="text-bg-danger">Megnyerte és bejutott a 2022-es Candidates-be</p>
                     </div>
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#valami" data-bs-slide="prev"
-                    style="right: auto; left: 10px;">
+                <button class="carousel-control-prev carousel-button-prev" type="button" data-bs-target="#valami" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-prev" type="button" data-bs-target="#valami" data-bs-slide="next"
-                    style="left: auto; right: 10px;">
+                <button class="carousel-control-prev carousel-button-next" type="button" data-bs-target="#valami" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
