@@ -72,8 +72,16 @@
                 <input type="radio" id="6" name="american-championship" value="6">
                 <label for="15">6</label><br><br>
 
-                <input type="submit" value="Küldés" class="kviz-gomb link-limit-responsiveness"><input type="reset" value="Válaszok Törlése" class="kviz-gomb link-limit-responsiveness"> 
-                <br>
+                <div id="quiz">
+                    <div id="question"></div>
+                    <div id="options"></div>
+                    <button id="submit">Submit</button>
+                    <br>
+                </div>
+
+                <script src="kviz.js"></script>
+
+                <input type="submit" value="Küldés" class="kviz-gomb link-limit-responsiveness"><input type="reset" value="Válaszok Törlése" class="kviz-gomb link-limit-responsiveness">
             </fieldset>
         </form>
         
