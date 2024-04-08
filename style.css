@@ -92,7 +92,7 @@ body {
 }
 
 
-.eredmenyek-jumbotron {
+.custom-jumbotron {
     background-color: rgb(190, 150, 90);
     border: 5px solid rgb(185, 122, 87);
 }
@@ -174,7 +174,7 @@ body {
     align-content: center;
 }
 
-.készitett {
-    border: 5px black solid;
-    margin-bottom: 10px;
+.keszitette {
+    margin: 10px;
+    padding: 5px;
 }
