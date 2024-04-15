@@ -2,11 +2,11 @@ body {
     background-color: rgb(239, 228, 176);
 }
 
-.barna {
+.brown {
     background-color: rgb(185, 122, 87);
 }
 
-.foszoveg {
+.title-text {
     margin-top: 10px;
     margin-left: 15px;
     font-size: 4vw;
@@ -40,11 +40,7 @@ body {
     border: 0 !important;
 }
 
-.navbarlink {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.page {
+.font {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -109,50 +105,50 @@ body {
 }
 
 @media (max-width: 899.98px) {
-    .foszoveg {
+    .title-text {
         margin-top: 10px;
         font-size: 6vw;
     }
-    .link-limit-responsiveness {
+    .link-adaptive {
         font-size: 2.6vw;
     }
-    .text-limit-responsiveness {
+    .text-adaptive {
         font-size: 1vw;
     }
-    .carousel-text-limit-responsiveness {
+    .carousel-text-adaptive {
         font-size: 2vw;
     }
 }
 
 @media (min-width: 900px) {
-    .foszoveg {
+    .title-text {
         margin-top: 7px;
         font-size: 4.75vw;
     }
-    .link-limit-responsiveness {
+    .link-adaptive {
         font-size: 2vw;
     }
-    .text-limit-responsiveness {
+    .text-adaptive {
         font-size: 0.8vw;
     }
-    .carousel-text-limit-responsiveness {
+    .carousel-text-adaptive {
         font-size: 1.6vw;
     }
 }
 
 @media (min-width: 1400px) {
-    .foszoveg {
+    .title-text {
         margin-top: 4px;
         font-size: 3.5vw;
     }
-    .link-limit-responsiveness {
+    .link-adaptive {
         font-size: 1.4vw;
     }
-    .text-limit-responsiveness {
+    .text-adaptive {
         font-size: 0.6vw;
     }
 
-    .carousel-text-limit-responsiveness {
+    .carousel-text-adaptive {
         font-size: 1.2vw;
     }
 } 
