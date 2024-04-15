@@ -14,6 +14,7 @@
             let qTwo = document.getElementById("grob").checked;
             let qThree = document.getElementById("15").checked;
             let qFour = document.getElementById("5").checked;
+            let qFive = document.getElementById("bongcloudopening").checked;
 
             if (qOne) {
                 score++;
@@ -27,11 +28,14 @@
             if (qFour) {
                 score++;
             }
+            if (qFive) {
+                score++
+            }
 
-            if (score == 4) {
-                alert("Helyes válasz :) 4/4");
+            if (score == 5) {
+                alert("Helyes válasz :) 5/5");
             } else {
-                alert("Helytelen válaszok :( " + score.toString() + "/4");
+                alert("Helytelen válaszok :( " + score.toString() + "/5");
             }
         }
     </script>
@@ -66,8 +70,7 @@
                 <label for="hikaru">Hikaru</label><br>
                 <input type="radio" id="gmhikaru" name="twitch_name" value="GMHikaru">
                 <label for="gmhikaru">GMHikaru</label><br>
-                <input type="radio" id="grandmasterhikaru" name="twitch_name" value="GrandMasterHikaru">
-                
+                <input type="radio" id="grandmasterhikaru" name="twitch_name" value="GrandMasterHikaru">   
                 <label for="grandmasterhikaru">GrandMasterHikaru</label><br>
                 <input type="radio" id="hikarunakamura" name="twitch_name" value="HikaruNakamura">
                 <label for="hikarunakamura">Hikaru Nakamura</label><br><br>
@@ -101,6 +104,16 @@
                 <label for="5">5</label><br>
                 <input type="radio" id="6" name="american-championship" value="6">
                 <label for="6">6</label><br><br>
+
+                <p><b>5.</b> Melyik megnyitás a saját találmánya?</p>
+                <input type="radio" id="bongcloudopening" name="invented-opening" value="Bongcloud-opening">
+                <label for="bongcloudopening">Bongcloud Támadás</label><br>
+                <input type="radio" id="siciliandefense" name="invented-opening" value="Sicilian-defense">
+                <label for="siciliandefense">Szicíliai Védelem</label><br>
+                <input type="radio" id="cowopening" name="invented-opening" value="Cow-opening">
+                <label for="cowopening">Tehén Megnyitás</label><br>
+                <input type="radio" id="grobopening" name="invented-opening" value="Grob">
+                <label for="grobopening">Grob Megnyitás</label><br><br>
 
                 <input type="submit" value="Küldés" class="kviz-gomb link-adaptive"><input type="reset" value="Válaszok Törlése" class="kviz-gomb link-adaptive">
             </fieldset>
