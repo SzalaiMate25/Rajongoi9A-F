@@ -102,6 +102,13 @@ body {
 .kviz-gomb {
     width: 15em;
     margin-right: 0.5em;
+    border: 5px solid rgb(185, 122, 87);
+    background-color: rgb(200, 160, 100);
+}
+
+.kviz-gomb:hover {
+    border: 5px solid rgb(200, 160, 100);
+    background-color: rgb(220, 210, 155);
 }
 
 @media (max-width: 899.98px) {
