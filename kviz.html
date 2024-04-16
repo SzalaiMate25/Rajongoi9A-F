@@ -61,9 +61,9 @@
         </p>
         
         <form name="kviz" onsubmit="return validate()">
-            <fieldset class="kviz-fieldset">
+            <fieldset class="kviz-fieldset kviz-background">
                 <legend class="h1" style="text-align: center;">Kvíz</legend>
-                <div class="container col-6">
+                <div class="container kviz-question rounded col-8">
                     <p><b>1.</b> Milyen néven streamel Hikaru Nakamura a Twitch platformján?</p>
                     <input type="radio" id="hikaru" name="twitch_name" value="Hikaru">
                     <label for="hikaru">Hikaru</label><br>
@@ -72,10 +72,10 @@
                     <input type="radio" id="grandmasterhikaru" name="twitch_name" value="GrandMasterHikaru">
                     <label for="grandmasterhikaru">GrandMasterHikaru</label><br>
                     <input type="radio" id="hikarunakamura" name="twitch_name" value="HikaruNakamura">
-                    <label for="hikarunakamura">Hikaru Nakamura</label><br><br>
+                    <label for="hikarunakamura">Hikaru Nakamura</label>
                 </div>
 
-                <div class="container col-6">
+                <div class="container kviz-question rounded col-8">
                     <p><b>2.</b> Mely megnyitás <b>nincs</b> megemlítve, mint a streameken játszott viccmegnyitás?</p>
                     <input type="radio" id="bongcloud" name="not-a-joke-opening" value="Bongcloud-attack">
                     <label for="bongcloud">Bongcloud Támadás</label><br>
@@ -87,7 +87,7 @@
                     <label for="grob">Grob Megnyitás</label><br><br>
                 </div>
 
-                <div class="container col-6">
+                <div class="container kviz-question rounded col-8">
                     <p><b>3.</b> Hány éves korában érte el a nagyesteri címet?</p>
                     <input type="radio" id="8" name="grandmaster" value="8">
                     <label for="8">8</label><br>
@@ -99,7 +99,7 @@
                     <label for="15">15</label><br><br>
                 </div>
 
-                <div class="container col-6">
+                <div class="container kviz-question rounded col-8">
                     <p><b>4.</b> Hányszor nyerte el az amerikai bajnoki címet?</p>
                     <input type="radio" id="3" name="american-championship" value="3">
                     <label for="3">3</label><br>
@@ -111,7 +111,7 @@
                     <label for="6">6</label><br><br>
                 </div>
 
-                <div class="container col-6">
+                <div class="container kviz-question rounded col-8">
                     <p><b>5.</b> Melyik megnyitás a saját találmánya?</p>
                     <input type="radio" id="bongcloudopening" name="invented-opening" value="Bongcloud-opening">
                     <label for="bongcloudopening">Bongcloud Támadás</label><br>

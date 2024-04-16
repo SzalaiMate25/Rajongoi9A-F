@@ -111,6 +111,18 @@ body {
     background-color: rgb(220, 210, 155);
 }
 
+.kviz-question {
+    border: 5px solid rgb(185, 122, 87);
+    background-color: rgb(200, 160, 100, 0.8);
+    margin: 10px auto;
+}
+
+.kviz-background {
+    background-image: url("kep2.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
 @media (max-width: 899.98px) {
     .title-text {
         margin-top: 10px;
